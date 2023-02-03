@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Blackletter';
+    src: local("Blackletter Regular"), local("Blackletter"),
+    url("Blackletter.ttf");
+}
+
+@font-face {
+    font-family: 'Stylebook';
+    src: local("Stylebook"), local("Stylebook"),
+    url("Stylebook.ttf");
+}
+
+
+.promotesProducts {
+    width: 290px;
+    height: 350px;
+    text-align: center;
+    display: inline;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    margin: 0 120px;
+}
+
+.product {
+    display: inline-flex;
+    flex-direction: inherit;
+    align-items: center;
+    margin: 0 40px;
+    clear: both;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Blackletter';
+    text-align: center;
+    margin: 80px 0;
+}
+
+h2 {
+    font-size: 68px;
+    font-family: 'Stylebook';
+    padding: 16px 0 2px;
+    margin: 0 auto;
+}
+
+p {
+    width: 200px;
+    font-size: 15px;
+    font-family: Helvetica, 'sans-serif';
+    margin: 5px auto 30px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
