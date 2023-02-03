@@ -1,8 +1,5 @@
 let productDiv = document.querySelector(".product");
-
-productDiv.onclick = (item) => {
-    //Pegar o src da imagem do produto
-}
+let carrinho = [];
 
 class Product {
     #id;
@@ -30,4 +27,5 @@ let coat = new Product(02, "Coat", "100% cotton coat", 4);
 let dress = new Product(03, "Dress", "Red dress", 2);
 
 const inventario = [tShirt, coat, dress];
-// console.log(inventario); 
+
+// function addToCart();

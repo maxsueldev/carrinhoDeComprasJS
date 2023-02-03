@@ -17,7 +17,6 @@ body {
     url("Stylebook.ttf");
 }
 
-
 .promotesProducts {
     width: 290px;
     height: 350px;
@@ -34,15 +33,16 @@ body {
     display: inline-flex;
     flex-direction: inherit;
     align-items: center;
-    margin: 0 40px;
+    padding: 0 30px;
+    margin: 0px;
     clear: both;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 78px;
     font-family: 'Blackletter';
     text-align: center;
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 h2 {
@@ -56,10 +56,14 @@ p {
     width: 200px;
     font-size: 15px;
     font-family: Helvetica, 'sans-serif';
-    margin: 5px auto 30px;
+    margin: 5px auto 10px;
 }
 
 img {
     width: 200px;
     height: 200px;
+}
+
+button.addToCart {
+    cursor: pointer;
 }
