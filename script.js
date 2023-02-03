@@ -1,4 +1,9 @@
-let currentId;
+let productDiv = document.querySelector(".product");
+
+productDiv.onclick = (item) => {
+    //Pegar o src da imagem do produto
+}
+
 class Product {
     #id;
     #qtd;
